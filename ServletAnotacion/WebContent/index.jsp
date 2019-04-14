@@ -4,12 +4,15 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>Servlet Anotación</title><br>
 </head>
-<body>
+<body style="text-align: center; background-color: lightblue">
+	<h2>Servlet Anotación</h2>
+	<h1>LOGIN</h1><br>
 	<form action="AnotacionServlet" method="post">
-	<label>Nombre de usuario: </label><input name="usuario" type="text">
-		<label>Contraseña: </label><input name="password" type="password">
+	<label>Nombre de usuario: </label><input name="usuario" type="text"><br><br>
+		<label>Contraseña: </label><input name="password" type="password"><br><br><br>
 		<input type="submit" value="validar">
+	</form>
 </body>
 </html>
